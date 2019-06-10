@@ -1,0 +1,15 @@
+img {
+    animation: spin 1s infinite linear;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
